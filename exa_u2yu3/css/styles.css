@@ -1,0 +1,151 @@
+/**Básicos**/
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    background-color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:600;
+    
+}
+/**Imagen izquierda**/
+.contenedor{
+    display: flex;
+}
+.imagen{
+width:1000px;
+height:1000px;
+}
+/**Encabezado de redes sociales**/
+.encabezado{
+display:flex;
+}
+.sign{
+font-size: 40px;
+color:#727272;
+
+}
+.redes{
+display:flex;
+margin-left:20px;
+}
+.fb{
+    width:100px;
+    height:100px;
+    cursor: pointer;
+    margin-left:20px;
+}
+.tw{
+    width:100px;
+    height:100px;
+    cursor: pointer;
+    margin-left:20px;
+}
+.in{
+    width:100px;
+    height:100px;
+    cursor: pointer;
+    margin-left:20px;
+}
+
+/**Or**/
+.Or{
+    margin-left:300px;
+color:#727272;
+font-size:25px;
+margin-top:20px;
+margin-bottom:20px;
+}
+/**Formulario**/
+fieldset{
+    border: none;
+    margin-top: none;
+    margin-bottom: 20px;
+
+}
+.contenedor-campos input{
+padding:30px;
+width:600px;
+    height:30px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.email{
+    width:1000px;
+    height:70px;
+    border-radius: 5%;
+    border-color: #727272;
+    margin-top:20px;
+}
+.password{
+    width:1000px;
+    height:70px;
+    border-radius: 5%;
+    border-color: #727272;
+    margin-top:20px;
+}
+/**Contraseñas**/
+.contraseñas{
+display:flex;
+margin-top:20px;
+}
+.checkbox{
+    margin-left: 25px;
+    font-size: 20px;
+    color:#727272
+}
+.hipervinculo a{
+    font-size: 20px;
+    color:#727272;
+    margin-right:80px;
+    margin-left:200px;
+}
+/**Login**/
+.boton{
+border-radius:0.5rem;
+background-color:#177FBF;
+color:white;
+font-size:16px;
+text-transform: uppercase;
+font-weight: bold;
+width: 120px;
+height:50px;
+cursor: pointer;
+padding: 15px 15px ;
+margin-left: 5px;
+margin-top:30px;
+box-shadow: #42484B;
+}
+.password{
+    font-size: 20px;
+    color:#727272;
+    cursor: pointer;
+    
+}
+/**Crear cuenta**/
+.crear{
+    display:flex;
+    justify-content: space-evenly;
+    margin-right:720px;
+    margin-top:30px;
+}
+.account{
+color:#42484B;
+font-size: 18px;
+font-weight: bold;
+}
+.account-rojo{
+    color:red;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
